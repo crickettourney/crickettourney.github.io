@@ -1,0 +1,37 @@
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15vh;
+  color: white;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10vh;
+  color: #51D0DE;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 5vh;
+  color: white;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3vh;
+  color: black;
+}
+.tinted{
+  opacity: 0.8;
+  background-image: url("https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1167&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.overalldiv{
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #b45900;
+  padding: 20px;
+}
+*{
+  margin: 0;
+}
