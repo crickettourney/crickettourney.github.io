@@ -1,12 +1,3 @@
-/*
-  Theme Name: Xlight
-  Theme Uri: http://www.Andsolutions.it
-  Author: Andsolutions
-  Author Uri: http://www.Andsolutions.it
-  Description: Onepage Site Template
-  Version: 1.0
-  */
-
 /*************************
 *******Typography******
 **************************/
@@ -15,9 +6,9 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 	background:#222222;
 	color: #f7f7f7;
-	margin:0; 
+	margin:0;
 	padding:0;
-	width:100%; 
+	width:100%;
 	overflow-x: hidden;
 	text-align: center;
 	-webkit-font-smoothing: antialiased;
@@ -142,8 +133,8 @@ cite {
 
 
 /*************************/
-	
-			
+
+
 /*************************
 ********Loader**********
 **************************/
@@ -184,7 +175,7 @@ cite {
   height: 100%;
   width: 6px;
   display: inline-block;
-  
+
   -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
   animation: stretchdelay 1.2s infinite ease-in-out;
 }
@@ -210,38 +201,38 @@ cite {
 }
 
 @-webkit-keyframes stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
   20% { -webkit-transform: scaleY(1.0) }
 }
 
 @keyframes stretchdelay {
-  0%, 40%, 100% { 
+  0%, 40%, 100% {
     transform: scaleY(0.4);
     -webkit-transform: scaleY(0.4);
-  }  20% { 
+  }  20% {
     transform: scaleY(1.0);
     -webkit-transform: scaleY(1.0);
   }
 }
 /*************************/
-	
+
 /*************************
 ********Parallax**********
-**************************/		
+**************************/
 .parallax {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
-	
+
 .overlay {
 	background: url(../images/pattern.png);
-}	
+}
 
 /*************************
 ********Home CSS**********
-**************************/	
+**************************/
 
 /* Home Slider */
 
@@ -336,20 +327,20 @@ cite {
 
 .left-control {
 	left: -51px
-} 
+}
 
 .right-control {
 	right: -51px;
 }
 
-.left-control:hover, 
+.left-control:hover,
 .right-control:hover {
 	color: #fff;
 }
 
 #home-slider:hover .left-control {
 	left:30px
-} 
+}
 
 #home-slider:hover .right-control {
 	right:30px
@@ -371,26 +362,26 @@ cite {
     color: #fff;
 }
 
-/*************************/	
+/*************************/
 
 
-		
+
 
 /* Customization Boostrap Menu */
 
 /* Main Color */
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
 	background-color: #fff;
 }
 
 /* Link Color */
-.navbar-inverse .navbar-nav>li>a { 
-	color: #f5f5f5; 
+.navbar-inverse .navbar-nav>li>a {
+	color: #f5f5f5;
 	margin: 0 5px;
 	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
-	transition: all 0.5s ease 0s;	
+	transition: all 0.5s ease 0s;
 }
 
 .navbar-collapse, .collapse .in:after, .main-nav-list:after, .navbar-collapse:after, .sticky-wrapper :after{
@@ -426,12 +417,12 @@ cite {
   border-color: #fff;
 }
 
-.navbar-wrapper { 
+.navbar-wrapper {
 	background-color: transparent;
 	padding: 10px 0;
 	margin-bottom: 0;
 	text-transform: uppercase;
-	z-index: 1000;	
+	z-index: 1000;
 	width: 100%;
 	top: 0;
 	position: fixed;
@@ -443,7 +434,7 @@ cite {
 	z-index: 0 !important;
 }
 
-.scroll-fixed-navbar{ 
+.scroll-fixed-navbar{
 	background-color: #333333;
 	opacity: 0.97;
 	padding: 20px 0;
@@ -459,7 +450,7 @@ cite {
 
 .navbar-inverse .navbar-nav > .active > a {
     background-image: none;
-    background-color: #fff;	
+    background-color: #fff;
     box-shadow: none;
 }
 
@@ -468,8 +459,8 @@ cite {
   text-shadow: none;
 }
 
-.navbar-inverse { 
-	background-color: transparent;	
+.navbar-inverse {
+	background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -509,7 +500,7 @@ cite {
 .section-title h3 {
 	font-size: 24px;
 	padding-top: 20px;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .element-title h1 {
@@ -550,16 +541,16 @@ cite {
 
 .why-us  {
 	padding: 60px 2% 80px;
-}	
+}
 
 .wrapper-why-us  {
 	padding: 40px 0;
-}	
+}
 
 .about-us h2 {
     font-size: 24px;
-	text-transform: uppercase;	
-}	
+	text-transform: uppercase;
+}
 
 /******************************************************/
 .hovicon {
@@ -578,7 +569,7 @@ cite {
 	-webkit-transition: all 0.2s ease-in-out 0s;
 	-moz-transition: all 0.2s ease-in-out 0s;
 	-o-transition: all 0.2s ease-in-out 0s;
-	transition: all 0.2s ease-in-out 0s;	
+	transition: all 0.2s ease-in-out 0s;
 }
 
 .hovicon:after {
@@ -633,7 +624,7 @@ cite {
 .facts{
 	/*background: none no-repeat scroll 0 0 #4d4d4d;*/
 	/*padding: 60px 2% 100px;*/
-	background-image: url("../images/facts-bg.jpg");
+	background-image: url("https://i.pinimg.com/originals/c5/e9/0a/c5e90a42ce0c0002305bd85839a5700f.jpg");
 }
 
 .wrapper-number {
@@ -653,7 +644,7 @@ cite {
 .number-title {
 	font-size: 20px;
 	color: #fff;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 /* End Facts */
@@ -670,7 +661,7 @@ cite {
 }
 
 
-.team-member { 	
+.team-member {
     display: block;
     margin: 0 auto 50px;
     max-width: 350px;
@@ -680,7 +671,7 @@ cite {
 }
 
 .team-member-holder {
-	border: 1px solid #d6d6d6; 
+	border: 1px solid #d6d6d6;
 	box-shadow: 0 12px 19px rgba(0, 0, 0, 0.1) inset, 0 1px 7px rgba(255, 255, 255, 0.2);
     overflow: hidden;
     position: relative;
@@ -695,7 +686,7 @@ cite {
 	opacity: 0.7;
 	filter: alpha(opacity=70);
 }
-	
+
 
 .team-member-holder:hover .overlay-content{
 	opacity: 1;
@@ -742,7 +733,7 @@ cite {
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
-    transition: all .5s ease;	
+    transition: all .5s ease;
 }
 
 .team-overlay .img-overlay {
@@ -761,7 +752,7 @@ cite {
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
-    transition: all .5s ease;	
+    transition: all .5s ease;
 }
 
 .view-profile {
@@ -779,7 +770,7 @@ cite {
 .view-profile:hover {
 	background-color: transparent;
 	color: #fff;
-	
+
 }
 
 .team-member-social-list {
@@ -839,7 +830,8 @@ cite {
 .skills{
 	/*background: none no-repeat scroll 0 0 #4d4d4d;*/
 	/*padding: 40px 2% 80px;*/
-	background-image: url("../images/skills-bg.jpg");
+	background-image: url("https://images8.alphacoders.com/442/thumb-1920-442882.jpg");
+	opacity: 0.7;
 }
 
 .wrapper-count {
@@ -977,7 +969,7 @@ li:last-child {
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
     -ms-transition: all .5s ease;
-    transition: all .5s ease;	
+    transition: all .5s ease;
 }
 
 .works-overlay .img-overlay {
@@ -1118,7 +1110,7 @@ li:last-child {
 
 .single-table {
     border: 1px solid #d6d6d6;
-	box-shadow: 0 12px 19px rgba(0, 0, 0, 0.1) inset, 0 1px 7px rgba(255, 255, 255, 0.2);	
+	box-shadow: 0 12px 19px rgba(0, 0, 0, 0.1) inset, 0 1px 7px rgba(255, 255, 255, 0.2);
     padding: 25px;
 }
 
@@ -1233,25 +1225,25 @@ span.price {
 	padding:
 }
 
-.testimonial-inner p::before{  
-	font-family:'FontAwesome'; 
-	content:"\f10d"; 
-	font-size: 20px; 
-	font-weight: bold; 
-	padding-right: 30px; 
-	font-weight: normal; 
-}
-	
-.testimonial-inner p::after{  
-	font-family:'FontAwesome'; 
-	content:"\f10e"; 
-	font-size: 20px; 
-	font-weight: bold; 
-	padding-left: 30px; 
-	font-weight: normal; 
+.testimonial-inner p::before{
+	font-family:'FontAwesome';
+	content:"\f10d";
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 30px;
+	font-weight: normal;
 }
 
-.testimonial-inner img{  
+.testimonial-inner p::after{
+	font-family:'FontAwesome';
+	content:"\f10e";
+	font-size: 20px;
+	font-weight: bold;
+	padding-left: 30px;
+	font-weight: normal;
+}
+
+.testimonial-inner img{
 	max-width: 150px;
 	/*border: 4px solid #00cfef;*/
 	margin-bottom: 20px;
@@ -1665,7 +1657,7 @@ h3.entry-title {
 
 .bottom-social-icons {
     margin: 0 auto 40px;
-    width: 100%;	
+    width: 100%;
 }
 
 /* End Footer */
@@ -1773,10 +1765,3 @@ a.scroll-up:hover {
 	margin-top: -90px;
 	padding-top: 85px;
 }
-
-
-
-
-
-
-
