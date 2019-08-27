@@ -68,8 +68,7 @@ p{
   background-color: white;
   color: gold;
 }
-section{
-  width: 100vw;
+.importantsection{
   display: inline-block;
   word-wrap: break-word
 }
