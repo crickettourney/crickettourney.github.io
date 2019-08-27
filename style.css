@@ -71,6 +71,6 @@ p{
   color: gold;
 }
 .testsection{
-  width: 100vw;
+  min-width: 100vw;
   display: inline-block;
 }
