@@ -495,6 +495,7 @@ cite {
 	font-size: 40px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: orange;
 }
 
 .section-title h3 {
@@ -506,6 +507,7 @@ cite {
 .element-title h1 {
 	font-size: 30px;
 	text-transform: uppercase;
+	color: orange;
 }
 
 .element-title h3 {
