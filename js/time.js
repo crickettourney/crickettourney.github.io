@@ -1,5 +1,5 @@
 function counter(){
-  var date = new Date("sep 25, 2019 07:00:00").getTime();
+  var date = new Date("sep 28, 2019 07:00:00").getTime();
   var diff = date - new Date().getTime();
   var days = Math.floor(diff / (1000 * 60 * 60 * 24));
   var hours = Math.floor((diff%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
