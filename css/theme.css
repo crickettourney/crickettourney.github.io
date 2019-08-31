@@ -347,9 +347,9 @@ cite {
 }
 
 .learn-more {
-	background: transparent;
+	background: orange;
 	margin-top: 40px;
-    color: #e4e4e4;
+    color: white;
     padding: 13px 20px;
 	font-size: 14px;
 	-webkit-transition: all 0.5s ease-in-out 0s;
@@ -358,8 +358,9 @@ cite {
 	transition: all 0.5s ease-in-out 0s;
 }
 .learn-more:hover {
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid orange;
+    background: white;
+		color: orange
 }
 
 /*************************/
