@@ -16,6 +16,10 @@ html, body {
 	-webkit-text-stroke-width: 0.1px;
 }
 
+.landing{
+	background: url('../images/main-bg.jpg');
+}
+
 a:visited, a:focus{color: none;}
 
 ol, ul {
