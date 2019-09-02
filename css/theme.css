@@ -252,7 +252,7 @@ cite {
 	left: 0;
 	right: 0;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: none;
 	z-index: 15;
 	font-size: 18px;
 	font-weight: 400;
@@ -270,7 +270,7 @@ cite {
 #home-slider .caption p {
     color: #fff;
 	font-size: 30px;
-    text-transform: uppercase;
+    text-transform: none;
 	padding-bottom: 40px;
 }
 
@@ -398,7 +398,7 @@ cite {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .navbar-brand {
@@ -426,7 +426,7 @@ cite {
 	background-color: transparent;
 	padding: 10px 0;
 	margin-bottom: 0;
-	text-transform: uppercase;
+	text-transform: none;
 	z-index: 1000;
 	width: 100%;
 	top: 0;
@@ -499,19 +499,19 @@ cite {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 40px;
 	font-weight: bold;
-	text-transform: uppercase;
+	text-transform: none;
 	color: orange;
 }
 
 .section-title h3 {
 	font-size: 24px;
 	padding-top: 20px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .element-title h1 {
 	font-size: 30px;
-	text-transform: uppercase;
+	text-transform: none;
 	color: orange;
 }
 
@@ -556,7 +556,7 @@ cite {
 
 .about-us h2 {
     font-size: 24px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 /******************************************************/
@@ -651,7 +651,7 @@ cite {
 .number-title {
 	font-size: 20px;
 	color: #fff;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 /* End Facts */
@@ -753,7 +753,7 @@ cite {
 	position: absolute;
 	top: 0;
 	width: 100%;
-	text-transform:uppercase;
+	text-transform:none;
 	opacity: 0;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -897,7 +897,7 @@ li:last-child {
 	margin-bottom: 4%;
 	background: transparent;
 	cursor: pointer;
-	text-transform: uppercase;
+	text-transform: none;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -997,7 +997,7 @@ li:last-child {
 .works-overlay-category{
 	color: #fff;
 	font-size: 26px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .works-overlay-text{
@@ -1571,7 +1571,7 @@ h3.entry-title {
     color: #FFFFFF;
     margin-bottom: 25px;
     margin-top: 25px;
-    text-transform: uppercase;
+    text-transform: none;
 }
 #twitter-carousel .carousel-indicators {
     bottom: -40px;
